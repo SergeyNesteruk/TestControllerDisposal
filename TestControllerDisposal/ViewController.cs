@@ -17,7 +17,7 @@ namespace TestControllerDisposal
 			base.ViewDidLoad();
 			scroll = new UIScrollView();
 			scroll.WeakDelegate = this;
-			//View.AddSubview(scroll);
+			View.AddSubview(scroll);
 		}
 
 		protected override void Dispose(bool disposing)
